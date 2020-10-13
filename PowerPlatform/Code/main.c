@@ -24,9 +24,15 @@ int main()
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置NVIC中断分组2：2位抢占优先级，2位响应优先级
 	MY_EXTI_Init();//初始化中断
 	delay_init();
+
+	//for (size_t i = 0; i < length; i++)
+	//{
+
+	//}
 	while(1){}
 
 	//啊2121212
+
 
 //	//设置油缸升降状态
 //	if (EN_CYLINDER_UP) {
