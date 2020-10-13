@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="APP">
+      <UniqueIdentifier>{2ebaee14-24c3-46b3-846e-1f28ce19a9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoardSupport">
+      <UniqueIdentifier>{22add331-bf54-48a2-9b2d-3e3e0455a969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{d51983b3-ee96-4bf1-a9d5-7d8350c03030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYSTEM">
+      <UniqueIdentifier>{cbaacb03-d8d7-443d-842c-5073fd136c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER">
+      <UniqueIdentifier>{f103634c-55cb-4df2-8608-5bc26d27267a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP\Header">
+      <UniqueIdentifier>{dc136dec-df1c-4276-ae47-b6d68b03992c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP\Source">
+      <UniqueIdentifier>{ab9949d2-d458-4da3-b851-f0cede0011df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Libraries\stm32f10x_it.c">
+      <Filter>SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BoardSupportPackage\delay\delay.c">
+      <Filter>BoardSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BoardSupportPackage\sys\sys.c">
+      <Filter>BoardSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BoardSupportPackage\usart\usart.c">
+      <Filter>BoardSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\beep.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\DAC.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\KEY.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\led.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\PWM.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\main.c">
+      <Filter>USER</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\ReMoterKEY.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\OUTPUT.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\EXTI.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\PowerPlatformAction.c">
+      <Filter>APP\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Libraries\stm32f10x_conf.h">
+      <Filter>SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Libraries\stm32f10x_it.h">
+      <Filter>SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\beep.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\DAC.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\KEY.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\led.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\PWM.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\ReMoterKEY.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BoardSupportPackage\sys\sys.h">
+      <Filter>BoardSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\OUTPUT.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\EXTI.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\PowerPlatformAction.h">
+      <Filter>APP\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
