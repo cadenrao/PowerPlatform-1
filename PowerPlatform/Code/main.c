@@ -26,6 +26,9 @@ int main()
 	delay_init();
 	while(1){}
 
+	//大叔法国v波速度也会改变v佛山的货币送
+
+
 //	//设置油缸升降状态
 //	if (EN_CYLINDER_UP) {
       
