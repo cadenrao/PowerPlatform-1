@@ -26,10 +26,6 @@ int main()
 	delay_init();
 	while(1){}
 
-	//大叔法国v波速度也会改变v佛山的货币送
-	//奥斯那次哦收到后iv给  dfokbokjcA}X从【】ds
-
-	//v不过从v各部门你
 
 
 //	//设置油缸升降状态
