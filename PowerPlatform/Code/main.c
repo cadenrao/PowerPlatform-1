@@ -26,7 +26,7 @@ int main()
 	delay_init();
 	while(1){}
 
-
+	//°¡2121212
 
 //	//ÉèÖÃÓÍ¸×Éı½µ×´Ì¬
 //	if (EN_CYLINDER_UP) {
